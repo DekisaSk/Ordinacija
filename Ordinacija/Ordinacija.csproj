@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ordinacija.Common.UI\Ordinacija.Common.UI.csproj">
+      <Project>{540aae44-8fb2-42a8-900f-e81543a85ab1}</Project>
+      <Name>Ordinacija.Common.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ordinacija.Common\Ordinacija.Common.csproj">
+      <Project>{bb32ba51-701b-4d62-bf7b-cd3100a553e1}</Project>
+      <Name>Ordinacija.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
